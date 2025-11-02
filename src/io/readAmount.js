@@ -10,7 +10,7 @@ export async function readAmount() {
       const lineAmountInput = await Console.readLineAsync("");
       const amount = parseInt(lineAmountInput);
       validateAmount(amount);
-      const lottoCount = amount / 1000;
+      const lottoCount = amount;
       return lottoCount;
     } catch (error) {
       printError(error);

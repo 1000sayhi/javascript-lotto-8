@@ -3,5 +3,4 @@ export function lottoTicketPrint(tickets) {
     const numbers = ticket.getNumbers();
     console.log(`[${numbers.join(", ")}]`);
   });
-  console.log('\n');
 }

@@ -26,7 +26,7 @@ class Lotto {
   }
 
   getNumbers() {
-    return [...this.#numbers]; // 외부에서 배열을 직접 수정하지 못하도록 복사본 반환
+    return [...this.#numbers];
   }
 }
 

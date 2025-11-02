@@ -1,5 +1,5 @@
 import { Console } from "@woowacourse/mission-utils";
-import { validateBonusNumb } from "../utils/validateBounsNumb.js";
+import { validateBonusNumb } from "../utils/validateBonusNumb.js";
 import { parseInt } from "../utils/parseInt.js";
 import { printError } from "./printError.js";
 

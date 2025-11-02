@@ -1,12 +1,11 @@
 import { Console } from "@woowacourse/mission-utils";
-import { readAmount } from "./io/ReadAmount.js";
 import { generateLottos } from "./model/LottoGenerator.js";
 import { lottoTicketPrint } from "./io/lottoTicketPrint.js";
 import { readWinningNumbs } from "./io/readWinningNumbs.js";
 import { readBonusNumb } from "./io/readBonusNumb.js";
 import { printResults } from "./io/printResults.js";
 import { calculateProfitRate, calculateResults } from "./model/LottoResultsCal.js";
-
+import { readAmount } from "./io/readAmount.js";
 class App {
   async run() {
     const amount = await readAmount();

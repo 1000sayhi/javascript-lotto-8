@@ -1,4 +1,4 @@
-import { parseInt } from "./ParseInt.js";
+import { parseInt } from "./parseInt.js";
 
 export function parseCSVNumbs(text, expected = 6) {
   if (typeof text !== "string") {

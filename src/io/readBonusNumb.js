@@ -1,6 +1,6 @@
 import { Console } from "@woowacourse/mission-utils";
 import { validateBonusNumb } from "../utils/validateBounsNumb.js";
-import { parseInt } from "../utils/ParseInt.js";
+import { parseInt } from "../utils/parseInt.js";
 import { printError } from "./printError.js";
 
 export async function readBonusNumb(winningNumbers) {
